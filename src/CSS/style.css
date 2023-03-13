@@ -1,0 +1,13 @@
+/* main section */
+.main{
+    padding:50px;
+    margin:50px;
+}
+/* label section */
+.main__labelAge{
+    margin-right:18px;
+}
+/* result section */
+#result{
+    color: green;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- main section starts -->
+    <main class="main">
+        <!-- age field-->
+        <div class="main__input1">
+            <label class="main__labelAge" for="age">Age : </Label>
+            <input id="main__inputAge" type="number">
+        </div>
+        <!-- weight field-->
+        <div class="main__in2">
+            <label class="main__labelWeight" for="weight">Weight : </label>
+            <input id="main__inputWeight" type="number">
+        </div>
+        <button id="checkBMI" onclick="bmi()">Submit</button>
+        <p id="result"></p>
+    </main>
+</body>
+<!-- script is added -->
+<script src="./JS/main.js"></script>
+
+</html>
